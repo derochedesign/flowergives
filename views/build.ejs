@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="theme-color" content=<%= data.theme %> />
+  <title>Build - <%= data.fType.charAt(0).toUpperCase() + data.fType.slice(1); %></title>
+  <link rel="icon" href="../../imgs/faviconx.png">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:600" rel="stylesheet">
+</head>
+<body>
+  <div class="mainwrap">
+
+    <input type="hidden" id="flowerData" value=<%= data.fType %> />
+
+    <img class="background" src="../../imgs/mainbg.jpg">
+
+    <div id="linkPop" class="subSure">
+      <div class="subSurePop">
+        <h1>Make sure to copy the link!</h1>
+        <div class="subSureBtn subSureYes linkPopNo" id="linkPopNo"><span>&#x2715;</span></div>
+      </div>
+    </div>
+
+    <div class="subSure" id="subSure">
+      <div class="subSurePop">
+        <h1>Are you happy with this message?</h1>
+        <p id=putMsg></p>
+        <div class="subSureBtn subSureYes" id="subSureYes"><span>&#x2713;</span></div>
+        <div class="subSureBtn subSureNo" id="subSureNo"><span>&#x2715;</span></div>
+      </div>
+
+    </div>
+
+    <div id="infoOver" class="overflow">
+      <div id="infoInfo" class="popInfo">
+        <h1 class="infoselect capitalize"><%= data.fType %> - More Info</h1>
+        <h5 class="infoselect">Origin: <%= data.origin %></h5>
+        <div class="infoInfoA">
+          <h3 class="infoselect">Cultural Connotation</h3>
+          <p class="infoselect"><%= data.infoOne %></p>
+          <p class="infoselect"><%= data.infoTwo %></p>
+          <p class="addBottom infoselect"><%= data.infoThree %></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="msgOver" class="overflow">
+      <div id="msgInfo" class="popInfo noscroll">
+        <h1 class="capitalize"><%= data.fType %> - Your Message</h1>
+        <h5></h5>
+        <div class="infoInfoA">
+          <h3>Enter Here</h3>
+          <div class="inputmsg">
+            <div id="submit" class="submitBtn"><img src="../../imgs/arrow.svg"></div>
+            <input id="cmsgInput" type="text">
+          </div>
+          <p id="success">Message Saved.</p>
+          <input type="hidden" id="idInput" value=""/>
+          <div class="linkStuff">
+            <input class="linkInput" type="text" id="linkInput" value=""/>
+            <button id="copylink" class="copylink"><p>Copy Link</p></button>
+            <button id="openlink" class="copylink"><p>Open Link</p></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="infoBtn" class="fab infoFab">
+      <span id="infoI" class="infoI">i</span>
+    </div>
+
+    <div id="msgBtn" class="fab msgFab">
+      <span id="msgI" class="infoI">+</span>
+    </div>
+
+    <div class="fixIt">
+      <div id="infoPop" class="allPop infoPop">
+      </div>
+    </div>
+    <div class="fixIt">
+      <div id="msgPop" class="allPop msgPop" >
+      </div>
+    </div>
+
+    <%- include partials/nav.ejs %>
+
+    <main class="flowerinfo colourbg rosePage">
+
+      <div id="deleteThis" class="mainFBox">
+        <img class="mainFlower" src=<%= data.img%>>
+      </div>
+      <div class="scrollAll">
+        <div class="hill">
+
+          <div class="svghill">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2200 250" style="enable-background:new 0 0 2200 250; fill:<%= data.theme %>;" xml:space="preserve"><path d="M1609.9,82.3c-325.9-22-670.2,35.5-933.2-46.8C316.8-77.1,0.5,114.3,0.5,114.3l-0.5,0V250h2200v-88.8C2082.1,136.8,1872.5,100,1609.9,82.3z"/>
+            </svg>
+          </div>
+          <div class="hillText" style="background-color:<%= data.theme %>">
+            <h1 class="title sSelect">You Created
+
+              <% if (data.fType.startsWith("o")) { %>
+                <span class="sSelect">an</span>
+              <% } else { %>
+                <span class="sSelect">a</span>
+              <% } %>
+
+              <span class="capitalize sSelect"><%= data.fType %></span>!
+            </h1>
+            <h1 class="title titleSecond messagetext sSelect">Add a custom message and send it to someone.</h1>
+          </div>
+        </div>
+
+        <div class="fillwhite" style="background-color:<%= data.theme %>">
+        </div>
+      </div>
+      <div class="blackbox" style="background-color:<%= data.theme %>">
+      </div>
+      <div class="whitebg">
+      </div>
+    </main>
+  </div>
+  <div class="iosunder">
+  </div>
+
+  <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+  <script src="../../js/menu.js" charset="utf-8"></script>
+  <script src="../../js/info.js" charset="utf-8"></script>
+  <script src="../../js/requests.js" charset="utf-8"></script>
+</body>
+</html>

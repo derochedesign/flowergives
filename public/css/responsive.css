@@ -1,0 +1,86 @@
+
+@media screen and (max-height:600px) {
+  .hill {
+    top: 46vh;
+  }
+  .mainFBox {
+    top: 12vh;
+  }
+}
+@media screen and (max-height:530px) {
+  .hill {
+    top: 41vh;
+  }
+  .mainFBox {
+    top: 6vh;
+  }
+}
+@media screen and (max-height:480px) {
+  .hill {
+    top: 36vh;
+  }
+}
+@media screen and (min-width:800px) {
+  .bigtitle {
+    display: block;
+  }
+  .smtitle {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width:1100px) {
+  .forcemobile {
+    /* display: block; */
+  }
+  .whitebg {
+    display: block;
+    background: radial-gradient(circle,white, #FCEDFF);
+  }
+  .mainFBox {
+    padding-right: 30em;
+  }
+  .flowerinfo {
+    background-image: none;
+  }
+  .scrollAll {
+    width: 30em;
+    right: 0;
+    overflow-y: hidden;
+  }
+  .hill {
+    top:0;
+  }
+  .svghill {
+    display: none;
+  }
+  .hillText {
+    padding-top: 20vh;
+    padding-bottom: 0;
+  }
+  .fillwhite {
+    height: 100vh;
+  }
+  .popInfo {
+    padding: 10em 20em;
+  }
+  .titleSecond {
+    overflow-y: auto;
+    height: 33em;
+  }
+  .title {
+    padding-bottom: 0.6em;
+  }
+  .blackbox {
+    display: block;
+  }
+  .mainFBox {
+    top: unset;
+    bottom: -20px;
+  }
+  .mainFlower {
+    max-width: unset;
+    width:42%;
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#000000"/>
+  <title>Language of Flowers</title>
+  <link rel="icon" href="imgs/faviconx.png">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+</head>
+<body>
+  <div class="mainwrap">
+    <div id="msgOver" class="overflow">
+      <div id="msgInfo" class="popInfo noscroll">
+        <h1>Create your own flower and send it away!</h1>
+        <h5></h5>
+        <div class="infoInfoA">
+          <h3>Choose a flower.</h3>
+          <div class="flowerBtns">
+            <div class="fBtnsLeft">
+              <a href="/build/sunflower"><button class="flowerSelect" type="button" id="sunflowerBtn">Sunflower</button></a>
+              <a href="/build/orchid"><button class="flowerSelect" type="button" id="orchidBtn">Orchid</button></a>
+              <a href="/build/peony"><button class="flowerSelect" type="button" id="peonyBtn">Peony</button></a>
+              <a href="/build/poppy"><button class="flowerSelect" type="button" id="poppyBtn">Poppy</button></a>
+            </div>
+            <div class="fBtnsRight">
+              <a href="/build/tuberose"><button class="flowerSelect" type="button" id="tuberoseBtn">Tuberose</button></a>
+              <a href="/build/lily"><button class="flowerSelect" type="button" id="lilyBtn">Lily</button></a>
+              <a href="/build/rose"><button class="flowerSelect" type="button" id="roseBtn">Rose</button></a>
+              <a href="/build/magnolia"><button class="flowerSelect" type="button" id="magnoliaBtn">Magnolia</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="msgBtn" class="fab msgFab">
+      <span id="msgI" class="infoI">+</span>
+    </div>
+
+    <div class="fixIt">
+      <div id="msgPop" class="allPop createPop">
+      </div>
+    </div>
+
+    <div class="landing">
+
+      <%- include partials/nav.ejs %>
+
+      <main class="home pinkbg">
+
+        <h1 class="htitle sSelect"><span class="normalizetitle sSelect">T</span>he<br>Language<br>of<br>Flowers</h1>
+        <h1 class="title titleSecond messagetext sSelect">Add a custom message and send it to someone.</h1>
+
+      </main>
+    </div>
+  </div>
+  <div class="iosunder">
+  </div>
+
+  <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js" charset="utf-8"></script>
+  <script src="js/info.js" charset="utf-8"></script>
+</body>
+</html>

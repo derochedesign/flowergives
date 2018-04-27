@@ -1,0 +1,74 @@
+[
+  {
+    "fType":"sunflower",
+    "origin":"Greece",
+    "img":"../../imgs/flowers/sunflowerISO.png",
+    "theme":"#ffc821",
+    "infoOne":"The sunflower’s yellow colour symbolizes vitality, intelligence, happiness, and friendship.",
+    "infoTwo":"The Sunflower holds messages of adoration and loyalty as found in the Greek myth of Clytie and Apollo. Sunflowers are also often given to couples for their third wedding anniversary to symbolize adoration, loyalty, and strength.",
+    "infoThree":"To many indigenous groups, sunflowers represented harvest, bounty, and provision because they provided seeds, pigment, and more."
+  },
+  {
+    "fType":"tuberose",
+    "origin":"Mexico",
+    "img":"../../imgs/flowers/tuberoseISO.png",
+    "theme":"#a9d365",
+    "infoOne":"In Vietnam and Hawaii, the Tuberose represents death, often being used in the decorating of funerals.",
+    "infoTwo":"In India, the tuberose is used as garland which plays a key role in the decoration of weddings, namely found around their doorways and bedchambers.",
+    "infoThree":"A legend in France says that young women should avoid the tuberoses after nightfall when the flower blooms and the aroma grows. The smell is said to encourage these young women to get into \"trouble\". We would implore you to not take this one seriously."
+  },
+  {
+    "fType":"orchid",
+    "origin":"China",
+    "img":"../../imgs/flowers/orchidISO.png",
+    "theme":"#b726ad",
+    "infoOne":"The phalaenopsis orchids, commonly referred to as moth orchids, earned their name from mistaken identity. When Swedish Naturalist Peter Osbeck first noticed them in his field glasses while visiting Java in the mid-1750s, he thought they were a cluster of moths.",
+    "infoTwo":"The ancient Greeks thought orchids were a symbol of virility. In fact, they were so convinced of the connection between orchids and fertility that they believe orchids with large tuberous roots symbolized a male child, while orchids with small tubers symbolized a female child.",
+    "infoThree":"Many grow in the understory of tropical forests, producing delicate blooms in a wide array of colours."
+  },
+  {
+    "fType":"lily",
+    "origin":"International",
+    "img":"../../imgs/flowers/lilyISO.png",
+    "theme":"#b5d84b",
+    "infoOne":"Unlike most other flowers, the perennial Lily never truly goes dormant. The strength and beauty of this international flower has cemented its place in the cultures of the world.",
+    "infoTwo":"The name \"Lily\" is derived from the Latin term Lilium. Lilium is derived from the Greek term leirion, a word that traces back through numerous civilizations to one of the first words for flower.",
+    "infoThree":"Lily is in high demand in China for weddings because its name sounds like the start of a phrase wishing the couple a happy union for a century. Chinese friends and family also give the flower to individuals who have experienced a recent loss, since it is believed to help relieve heartache."
+  },
+  {
+    "fType":"peony",
+    "origin":"Asia, Europe, North America",
+    "img":"../../imgs/flowers/peonyISO.png",
+    "theme":"#ff89c4",
+    "infoOne":"In China, the Chinese name of Peony translates to “most beautiful”, tied with honour and royalty.",
+    "infoTwo":"Oddly enough, it has somewhat of an opposite meaning to Western      individuals. Greek myth says that nymphs used to hide their naked forms in Peonies to shield them from prying eyes. This led to the association of Peonies with shamefulness and bashfulness during the Victorian era. It was considered downright unlucky to dig up a shrub of Peony during the Middle Ages due to associations with less than kind fairies.",
+    "infoThree":"The peony is the state flower of Indiana. It is also given for twelfth wedding anniversaries because the peony symbolizes honour, fortune, and a happy relationship."
+  },
+  {
+    "fType":"rose",
+    "origin":"China",
+    "img":"../../imgs/flowers/roseISO.png",
+    "theme":"#ff557a",
+    "infoOne":"In mythology the rose is associated with Aphrodite the Greek goddess of love who was often depicted adorned with roses around her head, feet and or neck. It is also said that a rose bush grew within the pool of blood spilled from Aphrodite’s slain lover Adonis.",
+    "infoTwo":"Christians in Medieval times identified the five petals of the rose with the five wounds of Christ. The rose later became associated with the Virgin Mary and was eventually adopted as a symbol of the blood of the Christian martyrs.",
+    "infoThree":"The rose is often associated with numerology. In art of the renaissance period, a rose with eight petals was a message of rebirth and renewal. In alchemical texts and art, a rose with seven petals was a symbol of inclusion, universal understanding and order."
+  },
+  {
+    "fType":"poppy",
+    "origin":"West Asia",
+    "img":"../../imgs/flowers/poppyISO.png",
+    "theme":"#ed382f",
+    "infoOne":"In Egypt, the Poppy is associated with deep sleep, or good sleep, due to the effects of opium derived from the poppies.",
+    "infoTwo":"In Japan and China, this flower represents romantic partners or couples who are deeply, and passionately in love.",
+    "infoThree":"In United Kingdom, Canada, Australia, and New Zealand, the tradition of wearing \"remembrance\" poppies is a sign of respect and thanks for those who have served in uniform. The tradition began due to the poem \"In Flanders Fields\", written by Canadian physician Lieutenant Colonel John McCrae."
+  },
+  {
+    "fType":"magnolia",
+    "origin":"East and South-East Asia",
+    "img":"../../imgs/flowers/magnoliaISO.png",
+    "theme":"#ff84ab",
+    "infoOne":"In China, the Magnolia represents purity and nobility, and were thought to be the perfect symbols of womanly beauty and gentleness.",
+    "infoTwo":"Magnolia's are named after the French botanist Pierre Magnol who aided scientists in determining that plants came in families, and not just spcies.",
+    "infoThree":"In Mississippi and Louisiana, USA, this flower is the official state flower and it represents a harbinger of spring."
+  }
+]
